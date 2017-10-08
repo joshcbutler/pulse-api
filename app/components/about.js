@@ -16,28 +16,28 @@ export default () => {
             <div className="small-10 medium-3 columns">
               <img className="four-up-feature-image" src="/assets/images/ben.jpg" alt="ben" />
               <h4 className="app-font">Ben Spille</h4>
-                <p className="four-up-feature-text app-font"> A few words about Ben
+                <p className="four-up-feature-text app-font"> 
                 <br></br><a href="https://github.com/bspille" target="_blank"><i className="fa fa-github fa-3x" aria-hidden="true"></i></a>
                 </p>
             </div>
             <div className="small-10 medium-3 columns">
               <img className="four-up-feature-image" src="/assets/images/greg.jpg" alt="greg" />
               <h4 className="app-font">Greg Barone</h4>
-                <p className="four-up-feature-text app-font">  A few words about Greg
+                <p className="four-up-feature-text app-font">  
                 <br></br><a href="https://github.com/Baronegreg" target="_blank"><i className="fa fa-github fa-3x" aria-hidden="true"></i></a>
                 </p>
             </div>
             <div className="small-10 medium-3 columns">
               <img className="four-up-feature-image" src="/assets/images/chris.jpg" alt="chris" />
               <h4 className="app-font">Chris Callan</h4>
-                <p className="four-up-feature-text app-font"> A few words about Chris
+                <p className="four-up-feature-text app-font"> 
                 <br></br><a href="https://github.com/ChrisCallanJr" target="_blank"><i className="fa fa-github fa-3x" aria-hidden="true"></i></a>
                 </p>
             </div>
             <div className="small-10 medium-3 columns">
               <img className="four-up-feature-image" src="/assets/images/josh.jpg" alt="josh" />
               <h4 className="app-font">Joshua Butler</h4>
-                <p className="four-up-feature-text app-font"> A few words about Josh
+                <p className="four-up-feature-text app-font"> 
                 <br></br><a href="https://github.com/joshcbutler" target="_blank"><i className="fa fa-github fa-3x" aria-hidden="true"></i></a>
                 </p>
             </div>

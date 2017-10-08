@@ -42,35 +42,30 @@ class splash extends Component {
         )
     }
 
-     
-
-  
     render(){
         return(
             <div className="homepage-hero-module">
                 <div className="video-container">
                     <div className="filter"></div>
                     <video autoPlay loop className="fillWidth">
-                        <source src="assets/videos/circles_and_people/circles_and_people.mp4" type="video/mp4" />
-                        <source src="assets/videos/circles_and_people/circles_and_people.webm" type="video/webm" />
+                        <source src="assets/videos/circles_and_people/circles_and_people.mp4" type="video/mp4" />Your browser does not support the video tag.
+                        <source src="assets/videos/circles_and_people/circles_and_people.webm" type="video/webm" />Your browser does not support the video tag.
                     </video>
-                    <div id="title-container" className="row align-middle splash-logo">
-                        <img id="pulse-logo-waves" className="column animated pulse" src="assets/images/pulse-waves.png" alt="PULSE"/>
-                        <img id="pulse-logo-big" className="column" src="assets/images/pulse-logo-nowaves.png" alt=""/>
-                    </div>
-                    
-                    <div id="signin-button-container" className="row">
-                        <div className="small-12 columns">
-                            
-                                <div id="googleButton"></div>
-                            
+                    <div id="splash-content-container">
+                        <div id="title-container" className="row align-middle splash-logo">
+                            <img id="pulse-logo-waves" className="column animated pulse" src="assets/images/pulse-waves.png" alt="PULSE"/>
+                            <img id="pulse-logo-big" className="column" src="assets/images/pulse-logo-nowaves.png" alt=""/>
+                        </div>
+                        <div id="signin-button-container" className="row">
+                            <div className="small-12 columns">
+                                    <div id="googleButton"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         )
     }
-
 }
 
 function mapStateToProps(state){
